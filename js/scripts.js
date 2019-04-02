@@ -7,7 +7,6 @@ $(document).ready(function(){
 
 
   $("#userResult").append(function() {
-    var i = 0;
     for (var i = 0; i < finalNum; i + countBy) {
       i = i + countBy;
       console.log(i);
